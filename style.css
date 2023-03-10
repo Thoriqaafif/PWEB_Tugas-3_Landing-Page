@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width:96%;
+    background-color:#65647c;
+    padding: 10px 2% 10px 2%;
+}
+
+nav{
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    display: inline-block;
+    justify-content: center;
+    text-align:center;
+    clear:both;
+}
+
+nav ul li{
+    font-family: 'Verdana';
+    font-size: 16px;
+    display: inline;
+    margin: 0px 5px 0px 5px;
+    color:#dddddd;
+}
+
+nav ul li:hover{
+    color:#eb455f;
+    cursor: pointer;
+}
+
+nav button {
+    background-color: #efefef;
+    border-radius: 8px;
+    border: 0px;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 12px;
+    text-align: center;
+    width:75px;
+}
+
+nav button:hover{
+    background-color: #2c3333;
+    color: #efefef;
+}
+
+.f{
+    height: 60px;
+    border: solid;
+    border-radius: 8px;
+    border-color: aliceblue;
+    position:relative;
+    left:100px;
+}
+
+.logo{
+    text-shadow: white 1px 0px 10px;
+    font-family: Helvetica, sans-serif;
+    color: #2b3467;
+    display: inline-block;  
+}
+
+.home-sect{
+    height:450px;
+    width:100%;
+    background-color: #8b7e74;
+    display:flex;
+}
+
+.tagline{
+    display:flex;
+    color: white;
+    position: relative;
+    top:140px;
+    left:120px;
+    font-size:48px;
+    font-family:sans-serif;
+}
+
+#running-home{
+    position: relative;
+    height:70%;
+    left:100px;
+    top:100px;
+    display: flex;
+}
+
+#tennis-home{
+    position: relative;
+    height:75%;
+    left:430px;
+    top:30px;
+    display: flex;
+}
+
+#basket-home{
+    position: relative;
+    height:80%;
+    left:100px;
+    top:60px;
+    display: flex;
+}
+
+.brand-sect{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15% 20px 15%;
+    background-color: #fcffe7;
+}
+
+#brand-logo{
+    object-fit:cover;
+    width: 80px;
+    display: inline;
+}
+
+.loc-sect{
+    background-color: #c7bca1;
+    width:90%;
+    height: 450px;
+    padding: 20px 5% 10px 5%;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+#loc-header{
+    color: #4d455d;
+    font-size: 32px;
+    font-family: Helvetica, arial, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+#loc-list{
+    display:flex;
+    justify-content:space-between;
+}
+
+.loc-item{
+    position: relative;
+    top:50px;
+    display: grid;
+}
+
+.loc-img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border: solid 1px;
+    border-color: #333333;
+    border-radius: 8px;
+    float: inline-start;
+    margin-bottom: 20px;
+}
+
+.loc-desc{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    display: inline-block;
+    color:#3e54ac;
+}
+
+footer{
+    background-color: #8b7e74;
+    font-size: 80%;
+    padding:7px 0px 0px 20px;
+}
